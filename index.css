@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+body {
+    background-image: url("railway-03.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    padding: 40px;
+}
+
+.container-outer{
+    background-color: #FFF;
+    height: auto;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 550px;
+    margin: 0 auto;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.container-inner{
+    padding: 20px;
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 100%;
+    max-width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+}
+
+#increment-btn {
+    background: #ee7c00;
+}
+
+#save-btn {
+    background: #004a61;
+}
+
